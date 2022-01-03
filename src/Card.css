@@ -1,0 +1,18 @@
+.Card { 
+  border: #5d0606;
+  background-color: #eb8989;
+  height: 11rem;
+  width: 10rem;
+  border-radius: 5px;
+  margin: 5px;
+  float: left;
+  transition: transform 0.8s;
+  font-size: 3em;
+  padding-top: 3rem;
+}
+
+.Card.face-up {
+  border: #7a1260;
+  background-color: #b82a71;
+  transform: rotateY(180deg);
+}
