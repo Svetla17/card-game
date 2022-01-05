@@ -6,7 +6,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        Открывай карточки, запоминай и найди каждой свою пару! 
+        Открывай парные картинки, запоминая их расположение! 
       </header>
       <Board />
     </div>
